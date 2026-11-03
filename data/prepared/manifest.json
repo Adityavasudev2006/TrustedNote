@@ -1,0 +1,49 @@
+{
+  "source": "ACI-Bench challenge_data",
+  "official_url": "https://github.com/wyim/aci-bench",
+  "splits": {
+    "train": {
+      "rows": 67,
+      "transcript_column": "dialogue",
+      "note_column": "note",
+      "split": "train",
+      "source_file": "train.csv",
+      "file_sha256": "6c778d4ac5e6cc6f1964786f9286e8d765c210f22ed6b57f83aff8497409cea4"
+    },
+    "valid": {
+      "rows": 20,
+      "transcript_column": "dialogue",
+      "note_column": "note",
+      "split": "valid",
+      "source_file": "valid.csv",
+      "file_sha256": "6629e89e3fb409d2b3eceab60dc7b32fe1d3fb8d4e07795039284965522aa4d0"
+    },
+    "test1": {
+      "rows": 40,
+      "transcript_column": "dialogue",
+      "note_column": "note",
+      "split": "test1",
+      "source_file": "clinicalnlp_taskB_test1.csv",
+      "file_sha256": "5cc4008e68545f84913744a8e493a58bdf17ba7e1b7a0be46d6943d6bfca9471"
+    },
+    "test2": {
+      "rows": 40,
+      "transcript_column": "dialogue",
+      "note_column": "note",
+      "split": "test2",
+      "source_file": "clinicalnlp_taskC_test2.csv",
+      "file_sha256": "599e3330a14e25a0e056aee1365ffac7ebe50058f15821eae42a5513c2bb5a4f"
+    },
+    "test3": {
+      "rows": 40,
+      "transcript_column": "dialogue",
+      "note_column": "note",
+      "split": "test3",
+      "source_file": "clef_taskC_test3.csv",
+      "file_sha256": "d3c18362a42124ea2bd1b2b4b66ba76a11bb123dfdb416471ae3b5924d1428ec"
+    }
+  },
+  "total_rows": 207,
+  "warnings": [],
+  "excluded": "Metadata CSVs and src_experiment_data variants are not imported."
+}

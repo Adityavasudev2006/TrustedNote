@@ -1,0 +1,10 @@
+{
+  "reference_entities": [
+    {"concept":"fever","subject":"patient","status":"absent","time":"current","value":"","unit":""},
+    {"concept":"oxygen saturation","subject":"patient","status":"observed","time":"current","value":"98","unit":"percent"}
+  ],
+  "predicted_entities": [
+    {"concept":"fever","subject":"patient","status":"present","time":"current","value":"","unit":""},
+    {"concept":"oxygen saturation","subject":"patient","status":"observed","time":"current","value":"98","unit":"percent"}
+  ]
+}

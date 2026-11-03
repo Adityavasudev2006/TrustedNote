@@ -1,0 +1,6 @@
+{
+  "Subjective": ["The patient has had a dry cough for three days.", "The patient reports fever.", "The patient has diabetes."],
+  "Objective": ["Oxygen saturation is 98 percent.", "Chest X-ray is normal."],
+  "Assessment": ["A viral upper respiratory infection is possible."],
+  "Plan": ["Rest and fluids were advised.", "Amoxicillin 500 mg three times daily was prescribed."]
+}

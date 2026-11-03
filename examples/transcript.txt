@@ -1,0 +1,8 @@
+Doctor: What brings you in today?
+Patient: I have had a dry cough for three days.
+Doctor: Have you had a fever or shortness of breath?
+Patient: No fever and no shortness of breath.
+Doctor: Are you taking any medicine?
+Patient: No regular medicines. My father has diabetes, but I do not.
+Doctor: Your temperature is 37 degrees Celsius and your oxygen saturation is 98 percent.
+Doctor: This may be a viral upper respiratory infection. Please rest and drink fluids. Return if your symptoms worsen.

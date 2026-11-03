@@ -1,0 +1,18 @@
+# Core
+python-dotenv
+
+# Generation backend
+anthropic                 # if using GEN_BACKEND=anthropic
+transformers               # if using GEN_BACKEND=local_hf, and for NLI verification
+torch                      # backend for transformers
+
+# Evidence retrieval
+sentence-transformers
+
+# Evaluation
+rouge-score
+bert-score
+spacy                      # run: python -m spacy download en_core_web_sm
+
+# Data handling
+pandas                     # optional, handy for inspecting ACI-Bench CSVs

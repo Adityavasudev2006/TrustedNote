@@ -1,0 +1,21 @@
+Create .vemv using the requirements.txt
+Then also download all the packages for the website
+Add the api key in the .env (Groq key)
+source .venv/bin/activate
+
+# One-time: install frontend (required for the dashboard)
+cd frontend && npm install && cd ..
+
+python main.py
+
+# Web: Sessions → New session — paste transcript OR Start recording (Whisper via Groq).
+# Allow microphone in the browser; transcription needs GROQ_API_KEY in .env.
+# Requires main.py to stay running (API on port 8765). Terminal shows the same SOAP + claims.
+
+# If the browser does not open automatically, use the URL printed after:
+#   [trustnote] Dashboard URL: http://127.0.0.1:3000
+# Fallback viewer (always works while main.py is running):
+#   http://127.0.0.1:8765/
+
+# Headless / no browser:
+# python main.py --no-ui --gen-backend mock
